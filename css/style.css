@@ -1,0 +1,206 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  ...;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  ...;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  ...;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  ...;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  padding-top: 55px;
+}
+
+h1 {
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  color: #022038;
+}
+
+.navbar {
+  border-bottom: #bdc5de 3px solid;
+  min-height: 85px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+}
+
+#main-nav {
+  background-image: linear-gradient(to top, #022038, #004688);
+}
+
+.carousel-item {
+  height: 70vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#myGallery .carousel-item {
+  height: 60vh;
+}
+
+#myGallery .carousel-image-1 {
+  background: url("../img/products/waterproofing-membranes/image-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#myGallery .carousel-image-2 {
+  background: url("../img/products/waterproofing-membranes/image-2.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#myGallery .carousel-image-3 {
+  background: url("../img/products/waterproofing-membranes/image-3.jpg");
+  background-size: cover;
+}
+
+#commGallery .carousel-item {
+  height: 60vh;
+}
+
+#commGallery .carousel-image-1 {
+  background: url("../img/commercial-feature.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#commGallery .carousel-image-2 {
+  background: url("../img/products/commercial/commercial-waterproofing-2.jpg");
+  background-size: cover;
+}
+
+#commGallery .carousel-image-3 {
+  background: url("../img/products/commercial/commercial-waterproofing-3.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#resGallery .carousel-item {
+  height: 60vh;
+}
+
+#resGallery .carousel-image-1 {
+  background: url("../img/residential-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#resGallery .carousel-image-2 {
+  background: url("../img/residential-2.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#resGallery .carousel-image-3 {
+  background: url("../img/residential-3.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.home-section .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  border-color: #004688;
+  color: #fff;
+}
+
+.home-section .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #022038;
+  color: #fff;
+}
+
+#feature-button .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #004688;
+  color: #fff;
+}
+
+#feature-button .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #022038;
+  color: #fff;
+}
+
+#residential .btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #004688;
+  color: #fff;
+}
+
+#residential .btn:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #022038;
+  color: #fff;
+}
+
+#waterproofing-membrane {
+  background-image: url(../img/home-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  min-height: 450px;
+  margin-bottom: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: square;
+}
+
+#main-footer {
+  background-image: linear-gradient(to top, #022038, #004688) !important;
+  min-height: 275px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#footer-links {
+  color: #fff !important;
+}

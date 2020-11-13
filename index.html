@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>GMX | Test Site</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <!-- START HERE -->
+
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-md bg-dark navbar-dark fixed-top"
+      id="main-nav"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand sm"
+          ><img src="img/GMX-logo-nav.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="products.html"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >Products</a
+              >
+              <div class="dropdown-menu">
+                <a href="residential-waterproofing.html" class="dropdown-item">Residential</a>
+                <a href="commercial-waterproofing.html" class="dropdown-item">Commercial</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="tech-data.html" class="nav-link">Technical Data</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END OF NAVIGATION -->
+
+    <!-- HOME CAROUSEL -->
+    <header class="home-section pt-4">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item active"
+            style="background-image: url('img/home.jpg')"
+          >
+            <div class="carousel-caption d-md-block align-items-center">
+              <h1 class="display-4">Protect your home and its contents from moisture</h1>
+              <p class="lead"><strong>View GMX's residential waterproofing solutions</strong></p>
+              <a href="residential-waterproofing.html" class="btn btn-lg btn-outline-primary"
+                  >View Residential Solutions</a
+                >
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div
+            class="carousel-item"
+            
+          >
+          <video autoplay loop id="video-background" poster="img/home-2.jpg" muted>
+            <source src="video/production ID_5156396.mp4" type="video/mp4">
+          </video>
+            <div class="carousel-caption d-md-block">
+              <h1 class="display-4">Protect your building from moisture intrusion</h1>
+              <p class="lead"><strong>View GMX's commercial waterproofing solutions</strong></p>
+              <a href="commercial-waterproofing.html" class="btn btn-lg btn-outline-primary"
+                  >View Commercial Solutions</a
+                >
+            </div>
+          </div>
+          
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- END OF CAROUSEL -->
+
+<!-- Page Content -->
+<div class="container py-5">
+
+    <!-- RESIDENTIAL FEATURES SECTION -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Residential Waterproofing Solutions</h2>
+        <p class="lead">The best line of defense against below grade moisture intrusion.</p>
+        <ol>
+          <li>Reduces heat loss, improves energy efficiency</li>
+          <li>Prevents air leakage and soil gas entry</li>
+          <li>Prohibits moisture from the outside air, from the ground, from the inside air, as well as that introduced during construction from getting into the basement</li>
+          <li>Channels rain water and ground water run-off away from the home</li>
+        </ol>
+        <p>
+          Over the past 20 years, our applicators have waterproofed millions of square feet of exterior wall space, enabling building owners and builders to maximize available living space at an affordable cost.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img
+          class="img-fluid rounded"
+          src="img/residential-feature"
+          alt=""
+        />
+      </div>
+    </div>
+    <br>
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>
+          GMX waterproofing systems are compatible with a wide range of insulation, drainage or protection course materials that provide insulating value, energy savings in addition to moisture intrusion protection.
+        </p>
+      </div>
+      <div class="col-md-4" id="feature-button">
+        <a class="btn btn-lg btn-outline-secondary btn-block" href="residential-waterproofing.html" id="residential-feature"
+          >View Solutions</a
+        >
+      </div>
+    </div>
+
+    <hr>
+
+
+    <!-- COMMERCIAL FEATURES SECTION -->
+    <div class="row py-5">
+      <div class="col-lg-6">
+        <img
+          class="img-fluid rounded"
+          src="img/commercial-feature.jpg"
+          alt=""
+        />
+      </div>
+      <div class="col-lg-6">
+        <h2>Commercial Waterproofing Solutions</h2>
+        <p class="lead">Enabling building owners and builders to maximize available living space</p>
+        <ol>
+          <li>Environmentally safe, cost effective waterproofing systems from an ISO 9001 certified supplier</li>
+          <li>Professional bid packages and project documentation for building and code officials</li>
+          <li>Local installation through GMX's Authorized Applicator network</li>
+          <li>Working contact form with validation</li>
+          <li>Long-term product and performance warranties</li>
+        </ol>
+        <p>
+          Our waterproofing systems form a tough, flexible layer of waterproofing which protects foundation walls far better than traditional dampproofing products.
+        </p>
+      </div>
+    </div>
+
+    <div class="row mb-4" id="feature-button">
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-outline-secondary btn-block mb-3" href="commercial-waterproofing.html"
+          >View Solutions</a
+        >
+      </div>
+
+      <div class="col-md-8">
+        <p>
+          GMX, Inc. is one of the largest manufacturers and suppliers of waterproofing and dampproofing products for the building envelope and maintains the industry's most stringent quality control standards as the only ISO 9001:2008 certified manufacturer of residential and commercial waterproofing systems.
+        </p>
+      </div>
+    </div>
+    <hr />
+  </div>
+  
+  </div>
+  <!-- END OF FEATURE-->
+
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <div class="mt-1 py-5 bg-dark text-light" id="main-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-xs-12 my-3">
+              <h4 class="mt-lg-0 mt-sm-4 ml-5 pl-5">Contact</h4>
+              <p class="ml-5 pl-5">
+                <i class="fa fa-map-marker mr-2"></i> 3014 Chamber Dr., Monroe, NC 28110
+              </p class="ml-5 pl-5">
+              <p class="ml-5 pl-5"><i class="fa fa-phone mr-2"></i> 866-228-7743 | 704-334-8222</p>
+              <p class="ml-5 pl-5"><i class="fa fa-fax mr-2"></i> 704-334-4202</p>           
+              <p class="ml-5 pl-5"><i class="fa fa-envelope mr-2"></i> info@gmxwaterproofing.com</p>
+            </div>
+
+            <div class="col-lg-3 col-xs-12 my-3">
+              <h4 class="mt-lg-0 mt-sm-3 ml-5 pl-5">Links</h4>
+              <ul class="m-0 p-0">
+                <li class="mb-1">
+                  <a class="page-footer ml-5 pl-5" href="residential-waterproofing.html" id="footer-links">Residential</a>
+                </li>
+                <li class="mb-1">
+                  <a class="page-footer ml-5 pl-5" href="commercial-waterproofing.html" id="footer-links">Commercial</a>
+                </li>
+                <li class="mb-1">
+                  <a class="page-footer ml-5 pl-5" href="3" id="footer-links"
+                    >Technical Data</a
+                  >
+                </li>
+                <li class="mb-1"><a class="page-footer ml-5 pl-5" href="#" id="footer-links">About</a></li>
+                <li class="mb-1"><a class="page-footer ml-5 pl-5" href="#" id="footer-links">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-5 col-xs about-company text-center mt-5">
+              <a href="index.html" class="navbar-brand sm"
+                ><img src="img/GMX-Logo.png" alt=""
+              /></a>
+              <p>Copyright &copy; <span id="year"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========== END FOOTER ========== -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>
