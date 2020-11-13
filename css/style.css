@@ -32,6 +32,13 @@ h1 {
   font-weight: 700;
 }
 
+@include (max-width: 480px) {
+  h1 {
+    font-family: "Zilla Slab", serif;
+    font-size: 40px !important;
+  }
+}
+
 h2 {
   font-family: "Zilla Slab", serif;
   font-weight: 500;
