@@ -29,12 +29,12 @@ body {
 
 h1 {
   font-family: "Zilla Slab", serif;
-  font-size: 60px !important;
+  font-size: 45px !important;
   font-weight: 700;
 }
 
 @include (max-width: 480px) {
-  h1 {
+  h1 .home-h1 {
     font-family: "Zilla Slab", serif;
     font-size: 40px !important;
   }
